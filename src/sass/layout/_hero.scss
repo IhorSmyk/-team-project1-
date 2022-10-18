@@ -1,4 +1,4 @@
-.hero{
+.hero {
   &__slide-container {
     max-width: 1000px;
     position: relative;
@@ -30,41 +30,8 @@
   }
 }
 
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 47%;
-  transition: fill var(--transition-dur-and-func);
-  user-select: none;
-  &:hover,
-  &:hover {
-    fill: #7eb101;
-  }
-}
-
-.icon-arrow{
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 16%);
-  border-radius: 8px;
-  background-color: #ffffff;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 250ms;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 @media screen and (max-width: 767px) {
-  .hero{
+  .hero {
     &__right-part {
       display: none;
     }
@@ -78,7 +45,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero{
+  .hero {
     padding-top: 60px;
     padding-bottom: 0;
 
@@ -117,16 +84,59 @@
       height: 292px;
     }
 
-    &__left-part{
+    &__left-part {
       position: relative;
     }
 
-    &__btn{
+    &__btn {
       position: absolute;
     }
-
   }
-  
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 47%;
+    transition: fill var(--transition-dur-and-func);
+    user-select: none;
+    &:hover,
+    &:hover {
+      fill: #7eb101;
+    }
+  }
+
+  .prev {
+    .icon-arrow {
+      transform: rotate(-180deg);
+      box-shadow: 0px -4px 4px rgb(0 0 0 / 0.1);
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+  }
+
+  .next {
+    .icon-arrow {
+      box-shadow: 0px 4px 4px rgb(0 0 0 / 0.1);
+      border-radius: 8px;
+      background-color: #ffffff;
+    }
+  }
+
+  .fade {
+    animation-name: fade;
+    animation-duration: 400ms;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   .next {
     right: -21;
   }
@@ -142,7 +152,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero{
+  .hero {
     padding-top: 159px;
     padding-bottom: 0;
 
@@ -178,11 +188,11 @@
       height: 528px;
     }
 
-    &__left-part{
+    &__left-part {
       position: static;
     }
 
-    &__btn{
+    &__btn {
       position: static;
     }
   }
