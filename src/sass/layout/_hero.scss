@@ -22,7 +22,8 @@
     background-color: var(--btn-green);
     border: none;
     border-radius: 30px;
-    transition: backgound-color var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func);
+
     &:hover,
     &:focus {
       background-color: #b5ff00;

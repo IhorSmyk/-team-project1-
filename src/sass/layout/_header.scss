@@ -28,6 +28,7 @@
   .mobile-menu-btn {
     background-color: transparent;
     fill: #7eb101;
+    transition: fill var(--transition-dur-and-func);
 
     & .logo__icon {
       display: block;
@@ -57,6 +58,7 @@
     .navbar__item {
       line-height: 16px;
       font-size: 14px;
+
       & > a:hover,
       & > a:focus {
         color: var(--btn-green);
@@ -80,6 +82,7 @@
     padding: 6px 18px;
     background-color: var(--btn-green);
     border-radius: 30px;
+    transition: background-color var(--transition-dur-and-func);
 
     &:hover,
     &:focus,
