@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "food-sta",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/IhorSmyk/team-project1",
+  "homepage": "https://github.com/ihorsmyk/food-sta",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project1/"
+    "build": "parcel build src/*.html --public-url /food-sta/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/ihorsmyk/food-sta.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Alexander Repeta <ismyk256@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/ihorsmyk/food-sta/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
