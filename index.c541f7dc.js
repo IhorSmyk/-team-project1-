@@ -1,0 +1,2 @@
+var slideIndex=1;function plusSlides(e){showSlides(slideIndex+=e)}function currentSlide(e){showSlides(slideIndex=e)}function showSlides(e){var s=document.getElementsByClassName("mySlides"),l=document.getElementsByClassName("dot");e>s.length&&(slideIndex=1),e<1&&(slideIndex=s.length);for(var d=0;d<s.length;d++)s[d].style.display="none";for(var n=0;n<l.length;n++)l[n].className=l[n].className.replace(" active","");s[slideIndex-1].style.display="block",l[slideIndex-1].className+=" active"}showSlides(slideIndex);
+//# sourceMappingURL=index.c541f7dc.js.map
