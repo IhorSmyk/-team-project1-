@@ -1,4 +1,4 @@
-# team-project1
+# FoodSta
 Team project in GoIT academy.
 
 
